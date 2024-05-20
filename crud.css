@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+    color: rgb(0, 0, 0);
+}
+body{
+background-color: #ffffff;
+height: 300vh;
+width: 100vw;
+display: flex;
+justify-content: start;
+align-items: center;
+flex-direction: column;
+}
+header{
+  height: auto;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#search{
+  height: 40px;
+  width: 50%;
+}
+
+form{
+  height: 100px;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+
+}
+.form2{
+    height: 200px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    border-radius: 10px;
+  }
+button{
+ background-color: #1fffa5;
+ height: 30px;
+ width: 50px;
+ border-radius: 5px;
+ color: #000000;
+}
+input{
+  height: 30px;
+  width: 80%;
+  border-radius: 5px;
+  padding-left: 10px;
+  border: 2px solid black;
+  padding-left: 10px;
+
+
+}
+
+table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 80%;
+}
+
+table td, table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+table tr:nth-child(even){background-color: #f2f2f2;}
+
+table tr:hover {background-color: #ddd;}
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #000000;
+  color: white;
+}
+
+img{
+height: 50px;
+width: 50px;
+}
+.Form{
+    height: auto;
+    width: 100vw;
+    background-color: rgb(252, 252, 252);
+    box-shadow: 0px 0px 0px 0px rgba(255, 255, 255, 0.2);
+
+}
+.delete{
+    background-color: red;
+    color: rgb(0, 0, 0);
+    height: 50px;
+    width: 100px;
+}
+.edit{
+    background-color: #1fffa5;
+    color: rgb(0, 0, 0);
+    height: 50px;
+    width: 100px;
+}
+.FormButton{
+    background-color: none;
+    box-shadow:none;
+}
+
+#SecondForm{
+  background-color: white;
+  height: 250px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+}
+
+h1 {
+  color: #1fffa5;
+}
+#editeBody{
+  height: 100vh;
+  width: 100vw;
+
+
+}
